@@ -10,4 +10,4 @@ apt-get install gcj-jre
 download:
 
 
-http://gnu.ist.utl.pt/software/gcc/mirrors.html
+http://mirrors.ocf.berkeley.edu/gnu/
