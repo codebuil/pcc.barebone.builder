@@ -3,4 +3,5 @@ convert pascal code to assembly
 
 
 
-https://www.freepascal.org/down/x86_64/win64-hungary.html
+
+https://sourceforge.net/projects/freepascal/files/Win32/3.2.2/
