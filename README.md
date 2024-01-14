@@ -1,7 +1,3 @@
-# pas2asm
-convert pascal code to assembly
+# libc.source
 
-
-
-
-https://sourceforge.net/projects/freepascal/files/Win32/3.2.2/
+script to display libc source
