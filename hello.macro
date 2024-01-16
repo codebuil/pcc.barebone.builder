@@ -1,0 +1,4 @@
+ax="hello world..."
+print,ax
+bx=1
+print,bx
