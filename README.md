@@ -1,4 +1,5 @@
-# libc.source
+# my.lenguage
 
-script to display libc source
-bash lib.sh
+tuturial as to make you inventad lenguage
+
+
