@@ -1,4 +1,8 @@
 ax="hello world..."
-print,ax
-bx=1
-print,bx
+print 10 , 10
+bx=10
+print 10 , 10
+bx=1.8
+print 10 , 10
+ax="jjj-2"
+myfunction 10 , 10

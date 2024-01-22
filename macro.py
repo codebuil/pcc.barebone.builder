@@ -5,8 +5,7 @@ def analisar_linha(linha, numero_linha):
     padrao_atribuicao = re.compile(r'^\s*([a-zA-Z][a-zA-Z0-9]*)\s*=\s*(".*?"|\d+\.\d+|\d+)$')
 
     # Expressão regular para verificar se é uma linha de função
-    padrao_funcao = re.compile(r'^\s*([a-zA-Z][a-zA-Z0-9]*)\s*,\s*([a-zA-Z][a-zA-Z0-9]*)(\s*,\s*("[^"]*"|\d+\.\d+|\d+))*$')
-
+    padrao_funcao = re.compile(r"[a-zA-Z0-9_]+(?:[\\s,]+[a-zA-Z0-9_])*")
     # Verifica se é uma linha de atribuição
     match_atribuicao = padrao_atribuicao.match(linha)
     if match_atribuicao:
@@ -19,8 +18,10 @@ def analisar_linha(linha, numero_linha):
         match_funcao = padrao_funcao.match(linha)
         if match_funcao:
             print("*" * 20)
-            print(f"function:{match_funcao.group(1)}")
-            parametros = match_funcao.groups()
+            
+            print(f"function:{match_funcao.group(0)}")
+            parametros = re.findall(r"[a-zA-Z0-9_]+(?:[\\s,]+[a-zA-Z0-9_])*",linha)
+           
             for parametro in parametros:
                
                 if parametro!=None:
