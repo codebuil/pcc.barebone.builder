@@ -1,8 +1,8 @@
 ax="hello world..."
-print 10 , 10
+print ax , 10
 bx=10
-print 10 , 10
+print bx , 10
 bx=1.8
-print 10 , 10
-ax="jjj-2"
-myfunction 10 , 10
+print bx , 10
+ax=10.00 + 10.00 * 2.00
+myfunction ax , 10
