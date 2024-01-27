@@ -1,6 +1,4 @@
-# my.lenguage
-
-tuturial as to make you inventad lenguage
-using regular expression
+# pcc.barebone.builder
 
 
+build barebone using portable c compilers
